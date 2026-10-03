@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.TenantManagementSystem" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#455A64</item>
+        <item name="colorPrimaryDark">#263238</item>
+        <item name="colorAccent">#00695C</item>
+    </style>
+</resources>
