@@ -9,4 +9,26 @@
     <string name="save">SAVE</string>
     <string name="tenant_result_hint">Saved tenant will appear here</string>
     <string name="tenant_name_required">Tenant name is required</string>
+    <string name="required">Required</string>
+    <string name="login_subtitle">Log in to continue</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register_link">Don\'t have an account? Register</string>
+    <string name="help_link">Need help? Visit our website</string>
+    <string name="register_title">Create an account</string>
+    <string name="full_name_hint">Full name</string>
+    <string name="register">REGISTER</string>
+    <string name="login_link">Already have an account? Log in</string>
+    <string name="login_fields_required">Please enter your email and password</string>
+    <string name="register_fields_required">Please fill in all fields</string>
+    <string name="account_created">Account created. Please log in.</string>
+    <string name="logged_in_as">Logged in as %1$s</string>
+    <string name="call_tenant">CALL TENANT</string>
+    <string name="share">SHARE</string>
+    <string name="share_tenant">Share tenant</string>
+    <string name="save_tenant_first">Save a tenant first</string>
+    <string name="browser_unavailable">No browser is available to open the website.</string>
+    <string name="dialer_unavailable">No phone dialer is available on this device.</string>
+    <string name="sharing_unavailable">No app is available to share tenant details.</string>
 </resources>
