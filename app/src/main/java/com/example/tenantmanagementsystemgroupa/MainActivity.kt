@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             val phone = binding.phoneEditText.text.toString().trim()
             val rent = binding.rentEditText.text.toString().trim()
             binding.tenantNameEditText.error =
-                if (name.isEmpty()) getString(R.string.tenant_name_required) else null
+                if (name.isEmpty()) getString(R.string.required) else null
             binding.phoneEditText.error =
                 if (phone.isEmpty()) getString(R.string.required) else null
             binding.rentEditText.error =

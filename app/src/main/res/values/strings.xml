@@ -8,7 +8,6 @@
     <string name="rent_hint">Enter Rent Paid</string>
     <string name="save">SAVE</string>
     <string name="tenant_result_hint">Saved tenant will appear here</string>
-    <string name="tenant_name_required">Tenant name is required</string>
     <string name="required">Required</string>
     <string name="login_subtitle">Log in to continue</string>
     <string name="email_hint">Email</string>

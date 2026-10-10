@@ -114,7 +114,7 @@ class MainActivityTest {
         save()
 
         assertNull(binding.tenant)
-        assertEquals("Tenant name is required", binding.tenantNameEditText.error.toString())
+        assertEquals("Required", binding.tenantNameEditText.error.toString())
         assertTrue(binding.tenantNameEditText.hasFocus())
         assertEquals("", binding.tenantResultTextView.text.toString())
         assertEquals("0712345678", binding.phoneEditText.text.toString())
@@ -128,7 +128,7 @@ class MainActivityTest {
         enterTenant("   ", "0798765432", "30000")
         save()
 
-        assertEquals("Tenant name is required", binding.tenantNameEditText.error.toString())
+        assertEquals("Required", binding.tenantNameEditText.error.toString())
         assertEquals(Tenant("John Kamau", "0712345678", "25000"), binding.tenant)
         assertEquals("John Kamau", binding.savedTenantNameTextView.text.toString())
         assertEquals(
